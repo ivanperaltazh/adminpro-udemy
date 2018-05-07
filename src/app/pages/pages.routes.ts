@@ -5,6 +5,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 
 
+
 const pagesRoutes: Routes = [
     {
         path:  '',
@@ -20,3 +21,6 @@ const pagesRoutes: Routes = [
 ];
 
 export const PAGES_ROTERS = RouterModule.forChild(pagesRoutes);
+
+// http://localhost:4200/#/progress
+// http://localhost:4200/#/graficas1
